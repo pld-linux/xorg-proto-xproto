@@ -1,4 +1,4 @@
-# $Rev$, $Date: 2005-08-15 12:17:57 $
+# $Rev$, $Date: 2005-08-17 20:10:46 $
 #
 Summary:	X protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u X i pomocnicze
@@ -29,6 +29,7 @@ Nag³ówki protoko³u X i pomocnicze.
 Summary:	X protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u X i pomocnicze
 Group:		X11/Development/Libraries
+Obsoletes:	xproto
 
 %description devel
 X protocol and ancillary headers.
