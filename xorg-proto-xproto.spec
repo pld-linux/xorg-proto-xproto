@@ -8,7 +8,7 @@ Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/xproto-%{version}.tar.bz2
 # Source0-md5:	5fcb850e1779a93d85ae7c59a3852b86
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-util-util-macros
