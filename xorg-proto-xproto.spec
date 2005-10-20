@@ -56,5 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc AUTHORS
+%dir %{_includedir}/X11
 %{_includedir}/X11/*.h
 %{_pkgconfigdir}/xproto.pc
