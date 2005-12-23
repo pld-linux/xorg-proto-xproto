@@ -5,8 +5,8 @@ Version:	7.0.4
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/proto/xproto-%{version}.tar.bz2
-# Source0-md5:	f15b8704acc4af8b67fba5ef46b6b1cb
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/xproto-%{version}.tar.bz2
+# Source0-md5:	9b7c807841c28289151f911fc1bea707
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
