@@ -1,12 +1,12 @@
 Summary:	X protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u X i pomocnicze
 Name:		xorg-proto-xproto
-Version:	7.0.9
+Version:	7.0.10
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/xproto-%{version}.tar.bz2
-# Source0-md5:	237eb62304f09e68495a4dce672d7baa
+# Source0-md5:	2ed80e90992e7455eaac4c3e977ebd01
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
