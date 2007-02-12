@@ -1,5 +1,5 @@
 Summary:	X protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu X i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu X i pomocnicze
 Name:		xorg-proto-xproto
 Version:	7.0.10
 Release:	1
@@ -21,7 +21,7 @@ Nagłówki protokołu X i pomocnicze.
 
 %package devel
 Summary:	X protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu X i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu X i pomocnicze
 Group:		X11/Development/Libraries
 Obsoletes:	xproto
 
