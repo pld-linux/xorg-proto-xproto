@@ -2,7 +2,7 @@ Summary:	X protocol and ancillary headers
 Summary(pl.UTF-8):	Nagłówki protokołu X i pomocnicze
 Name:		xorg-proto-xproto
 Version:	7.0.16
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/xproto-%{version}.tar.bz2
@@ -24,6 +24,7 @@ Summary:	X protocol and ancillary headers
 Summary(pl.UTF-8):	Nagłówki protokołu X i pomocnicze
 Group:		X11/Development/Libraries
 Obsoletes:	xproto
+Requires:	filesystem >= 3.0-32
 
 %description devel
 X protocol and ancillary headers.
@@ -57,7 +58,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING ChangeLog
-%dir %{_includedir}/X11
 %{_includedir}/X11/*.h
 %dir %{_includedir}/X11/extensions
 %{_pkgconfigdir}/xproto.pc
