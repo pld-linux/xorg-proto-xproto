@@ -8,9 +8,9 @@ Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/xproto-%{version}.tar.bz2
 # Source0-md5:	6b8a34b274c6fceaffe57c579db826b9
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros >= 1.2
+BuildRequires:	xorg-util-util-macros >= 1.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -23,8 +23,8 @@ Nagłówki protokołu X i pomocnicze.
 Summary:	X protocol and ancillary headers
 Summary(pl.UTF-8):	Nagłówki protokołu X i pomocnicze
 Group:		X11/Development/Libraries
-Obsoletes:	xproto
 Requires:	filesystem >= 3.0-32
+Obsoletes:	xproto
 
 %description devel
 X protocol and ancillary headers.
