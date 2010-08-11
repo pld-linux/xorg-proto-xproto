@@ -57,7 +57,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog
+%doc AUTHORS COPYING ChangeLog README
 %{_includedir}/X11/*.h
 %dir %{_includedir}/X11/extensions
 %{_pkgconfigdir}/xproto.pc
