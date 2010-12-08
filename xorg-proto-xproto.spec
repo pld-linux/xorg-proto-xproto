@@ -59,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING ChangeLog README specs/*.html
+%doc AUTHORS COPYING ChangeLog README specs/*.html specs/SIAddresses/{IPv6,hostname,localuser}.txt
 %{_includedir}/X11/*.h
 %dir %{_includedir}/X11/extensions
 %{_pkgconfigdir}/xproto.pc
