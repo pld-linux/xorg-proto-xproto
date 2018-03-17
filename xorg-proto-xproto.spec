@@ -1,8 +1,9 @@
+# NOTE: now maintained in xorg-proto-xorgproto.spec
 Summary:	X protocol and ancillary headers
 Summary(pl.UTF-8):	Nagłówki protokołu X i pomocnicze
 Name:		xorg-proto-xproto
 Version:	7.0.31
-Release:	1
+Release:	1.1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	https://xorg.freedesktop.org/releases/individual/proto/xproto-%{version}.tar.bz2
@@ -61,6 +62,31 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc AUTHORS COPYING ChangeLog README specs/*.html specs/SIAddresses/{IPv6,hostname,localuser}.txt
-%{_includedir}/X11/*.h
+%{_includedir}/X11/DECkeysym.h
+%{_includedir}/X11/HPkeysym.h
+%{_includedir}/X11/Sunkeysym.h
+%{_includedir}/X11/X.h
+%{_includedir}/X11/XF86keysym.h
+%{_includedir}/X11/XWDFile.h
+%{_includedir}/X11/Xalloca.h
+%{_includedir}/X11/Xarch.h
+%{_includedir}/X11/Xatom.h
+%{_includedir}/X11/Xdefs.h
+%{_includedir}/X11/Xfuncproto.h
+%{_includedir}/X11/Xfuncs.h
+%{_includedir}/X11/Xmd.h
+%{_includedir}/X11/Xos.h
+%{_includedir}/X11/Xos_r.h
+%{_includedir}/X11/Xosdefs.h
+%{_includedir}/X11/Xpoll.h
+%{_includedir}/X11/Xproto.h
+%{_includedir}/X11/Xprotostr.h
+%{_includedir}/X11/Xthreads.h
+%{_includedir}/X11/Xw32defs.h
+%{_includedir}/X11/Xwindows.h
+%{_includedir}/X11/Xwinsock.h
+%{_includedir}/X11/ap_keysym.h
+%{_includedir}/X11/keysym.h
+%{_includedir}/X11/keysymdef.h
 %dir %{_includedir}/X11/extensions
 %{_pkgconfigdir}/xproto.pc
